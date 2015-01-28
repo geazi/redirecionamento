@@ -63,12 +63,13 @@ if ($rotaVerificada == "erro.php") {
 <?php
 function verificaRota($qualRota) { 
 	$rotas = array(
-		"home"         => "home.php",
-		"empresa"      => "empresa.php",
-		"produtos"     => "produtos.php",
-		"servicos"     => "servicos.php",
-		"contato"      => "contato.php",
-		"erro"         => "erro.php",
+		"home"           => "home.php",
+		"empresa"        => "empresa.php",
+		"produtos"       => "produtos.php",
+		"servicos"       => "servicos.php",
+		"contato"        => "contato.php",
+		"processardados" => "processardados.php",
+		"erro"           => "erro.php",
 		);
 
 	if ($qualRota == "") {

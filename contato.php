@@ -1,7 +1,7 @@
 <div class="span10"> 
 	<div class="well"> 
 
-		<form action="index.php?file=processardados.php" method="POST">
+		<form action="/processardados" method="POST">
 			<fieldset>
 				<legend align=left>Formulário de Contato</legend>
 			</fieldset>
